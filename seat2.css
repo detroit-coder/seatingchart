@@ -1,0 +1,66 @@
+body {
+    background-color: black;
+    background-image: url("https://d2gg9evh47fn9z.cloudfront.net/800px_COLOURBOX11019817.jpg");
+    background-size: cover;
+  }
+  
+  h1 {
+    margin: 50px 40px 10px auto;
+    color: white;
+    font-family: arial;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  .row1, .row2 {
+    width: 800px;
+    height: 60px;
+    font-family: arial;
+    font-size: 14px;
+    margin: 20px auto 20px auto;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  #name {
+    margin-left: 20px;
+    text-align: left;
+    width: 120px;
+    height: 20px;
+    border: 1px solid red;
+    border-radius: 4px;
+  }
+  
+  button {
+    margin-right: 60px;
+    height:22px;
+    width: 60px;
+    text-align: center;
+  }
+  
+  img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+    background-color: rgb(220,220,220);
+    opacity: .7;
+    margin: 20px;
+    padding: 5px;
+  }
+  
+  .row1 div, .row2 div {
+    float: left;
+    align-content: center;
+  }
+  
+  p {
+    color: white;
+  }
+  
+  .clicked {
+    background-color: green;
+  }
+  
+  .reserved {
+    background-color: red;
+  }
